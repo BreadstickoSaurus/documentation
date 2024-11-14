@@ -22,16 +22,16 @@
 - [X] remove alt titles from a game
 
 #### Platforms :
-- [X]crud
+- [X] crud
 
 #### Publishers
-- [X]crud
+- [X] crud
 
 #### Developers :
-- [X]crud
+- [X] crud
 
 #### Genres
-- [X]crud
+- [X] crud
 
 #### States
 - [X] get all states
@@ -51,6 +51,22 @@
 - [ ] see specific game from followed user
 
 ## Frontend
+
+### General
+- [X] login/register
+- [ ] pwa with caching
+  
+### Collection
+- [X] browse own collection
+- [X] crud
+- [ ] browse other people's collection
+
+### Wishlist
+- [ ] browse own wishlist
+- [ ] crud
+- [ ] browse games from all wishlists
+  - [ ] with semantic search
+  - [ ] with regular search
 
 ## Extra
 - [ ] Docker file
