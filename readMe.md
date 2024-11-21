@@ -54,7 +54,7 @@
 
 ### General
 - [X] login/register
-- [ ] pwa with caching
+- [X] pwa with caching (doesnt work with "npm run dev", use "npm run serve" instead)
   
 ### Collection
 - [X] browse own collection
@@ -64,10 +64,12 @@
 ### Wishlist
 - [ ] browse own wishlist
 - [ ] crud
-- [ ] browse games from all wishlists
-  - [ ] with semantic search
+- [X] browse games from all wishlists
+  - [X] with semantic search
   - [ ] with regular search
 
 ## Extra
-- [ ] Docker file
+- [X] Docker
+  - [ ] Fixed SQL bug
+  - [ ] automatic injection of .env variables so only 1 .env is needed
 - [X] Data script files
