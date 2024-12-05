@@ -62,14 +62,14 @@
 - [ ] browse other people's collection
 
 ### Wishlist
-- [ ] browse own wishlist
-- [ ] crud
+- [X] browse own wishlist
+- [X] crud
 - [X] browse games from all wishlists
   - [X] with semantic search
-  - [ ] with regular search
+  - [X] with regular search
 
 ## Extra
 - [X] Docker
-  - [ ] Fixed SQL bug
+  - [X] Fixed SQL bug
   - [ ] automatic injection of .env variables so only 1 .env is needed
 - [X] Data script files
