@@ -41,10 +41,10 @@
 
 #### Searching
 - [X] semantic search
-- [ ] regular search
-- [ ] do embedding during post of a game instead of every search
+- [X] regular search
+- [X] do embedding during post of a game instead of every search
 
-#### Sharing collection/wishlist
+#### Sharing collection/wishlist (only implemented in frontend, followed users stored locally)
 - [ ] follow a user
 - [ ] get followed users
 - [ ] see followed users collection/wishlist
@@ -73,5 +73,5 @@
 ## Extra
 - [X] Docker
   - [X] Fixed SQL bug
-  - [ ] automatic injection of .env variables so only 1 .env is needed
+  - [X] automatic injection of .env variables so only 1 .env is needed
 - [X] Data script files
