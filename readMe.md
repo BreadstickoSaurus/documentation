@@ -55,11 +55,12 @@
 ### General
 - [X] login/register
 - [X] pwa with caching (doesnt work with "npm run dev", use "npm run serve" instead)
+- [X] follow user by saving their share link
   
 ### Collection
 - [X] browse own collection
 - [X] crud
-- [ ] browse other people's collection
+- [X] browse other people's collection
 
 ### Wishlist
 - [X] browse own wishlist
@@ -67,6 +68,7 @@
 - [X] browse games from all wishlists
   - [X] with semantic search
   - [X] with regular search
+- [X] button to share wishlist and collection
 
 ## Extra
 - [X] Docker
