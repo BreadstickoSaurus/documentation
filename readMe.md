@@ -1,77 +1,49 @@
-# Verzamel project
+# Collection platform
 ---
+
+## General Idea
+The general idea of this project is a collection platform for games in this case. It is described how difficult it is to change in the `changeType.md` file.
+In this project, you can create an account and start creating your collection or wishlist of games. This can be useful for many things like:
+- Knowing what you have when buying new things
+- Knowing what you want when buying new things
+- Showing your collection/wishlist to others easily.
+
+You can allow people to view your collection/wishlist for future use. This way, when you see, let's say, a game at a garage sale, you can quickly check if they want it or already have it.
+
+In `todoList.md` you have a quick overview of what is available in the project.
+
 ## Backend
+For this part of the project, we have used Deno as a runtime environment, for its standard TypeScript and ease of use.
+The project structure is as follows:
+- endpoint
+- controller
+- repository / model
 
-### Endpoints :
-#### Games :
-- [X] Authentication
-- [X] Get Collection
-- [X] Get Wishlist
-- [X] Get Game details
-- [X] Add game to collection
-- [X] Add game to wishlist
-- [X] Delete game
+The backend has all required endpoints needed to run the frontend without problems. All of the endpoints have checks in place to verify if all the input data is correct and provide an appropriate response in case of a problem.
 
-#### Images :
-- [X] Add images to a game
-- [X] Delete images from a game
-- [X] Get images from a game
+For more info:
+- https://gitlab.ti.howest.be/ti/2024-2025/s5/project-iv/projecten/project-01/code/backend
 
-#### Alternate titles :
-- [X] add alt titles to a game
-- [X] remove alt titles from a game
+### Database
+We have used a regular SQL database for the project with scripts that create everything needed to run the project.
 
-#### Platforms :
-- [X] crud
-
-#### Publishers
-- [X] crud
-
-#### Developers :
-- [X] crud
-
-#### Genres
-- [X] crud
-
-#### States
-- [X] get all states
-
-#### Countries
-- [X] get all countries
-
-#### Searching
-- [X] semantic search
-- [X] regular search
-- [X] do embedding during post of a game instead of every search
-
-#### Sharing collection/wishlist (only implemented in frontend, followed users stored locally)
-- [ ] follow a user
-- [ ] get followed users
-- [ ] see followed users collection/wishlist
-- [ ] see specific game from followed user
+For more info:
+- https://gitlab.ti.howest.be/ti/2024-2025/s5/project-iv/projecten/project-01/code/data
 
 ## Frontend
+For the frontend of this project, we have used Vue.js as our framework, because it is easy to use and quick to set up. In here, everything as requested by the client is available.
+Some of its main features are:
+- Semantic search
+- Viewing, adding, removing, updating on collection/wishlist
+- Follow other people without the need of an account
 
-### General
-- [X] login/register
-- [X] pwa with caching (doesnt work with "npm run dev", use "npm run serve" instead)
-- [X] follow user by saving their share link
-  
-### Collection
-- [X] browse own collection
-- [X] crud
-- [X] browse other people's collection
+The project is set up with a router, multiple views that have components, and uses services.
 
-### Wishlist
-- [X] browse own wishlist
-- [X] crud
-- [X] browse games from all wishlists
-  - [X] with semantic search
-  - [X] with regular search
-- [X] button to share wishlist and collection
+For more info:
+- https://gitlab.ti.howest.be/ti/2024-2025/s5/project-iv/projecten/project-01/code/frontend
 
-## Extra
-- [X] Docker
-  - [X] Fixed SQL bug
-  - [X] automatic injection of .env variables so only 1 .env is needed
-- [X] Data script files
+## Docker
+We have created a Docker Compose file with 3 Docker files so the project can be easily set up using `docker compose up`. All the required projects (backend, frontend, database) are set up with this and have seeders included with test data.
+
+For more info:
+- https://gitlab.ti.howest.be/ti/2024-2025/s5/project-iv/projecten/project-01/docker
