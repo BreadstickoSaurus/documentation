@@ -112,6 +112,7 @@ Otherwise, we have not created any other schemas.
 - A git (lab or hub) repository that the client can access
   - https://gitlab.ti.howest.be/ti/2024-2025/s5/project-iv/projecten/project-01
   - https://github.com/BreadstickoSaurus/CollectionPlatform
+    - When using the nested projects please check if you are on the main branch, it can be you are on a certain commit branch(dont know how to fix)
 - A zip file with the source code, emailed to the client
 - The final presentation
 - A video showing the application
