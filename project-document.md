@@ -104,15 +104,27 @@ If I were to do this project again I would maybe choose different technologies w
 
 ### Stan Vandamme
 
+This project went very smoothly overall. The team size was appropriate, and both Ryan and I had the expertise needed to complete our respective parts. When dividing the work, simply asked each other, “Can I do this part?” This ensured that we both worked on areas we were interested in. Ryan took on the backend and semantic search, while I focused on the frontend development and Docker setup.
+
+To maintain progress, we met every Thursday on campus and worked together for at least half a day. At the end of each session, we decided whether the remaining tasks for the day could be completed remotely. I found I was slightly more productive on campus compared to working from home, so I chose to do most of my work there during project week. Ryan, on the other hand, preferred to work remotely when possible, as avoiding the commute saved him a lot of time. Since we worked on separate parts of the project the small amount of communication that was needed could easily be done over Discord.
+
+Communication within the team and with the client went smoothly. Ryan and I could easily discuss our progress and challenges in person or via Discord. We also maintained regular communication with the client, meeting at least once a week during our Wednesday class. For any additional or urgent questions, we used email and Teams.
+
+We required help from the teachers only once, when I encountered an issue with the Docker file for the backend. I reached out to Mr. De Smet during one of the SAD lab sessions, and he was able to resolve the problem. It definitely would have taken us significantly longer to solve this problem on our own, so I thank Mr. De Smet for his help.
+
+Throughout the project, my skills in Vue.js improved significantly. I also gained valuable experience working with Docker Compose and Docker files. Using Docker in a real project environment helped me appreciate how much time and effort it can save. Once the Docker setup was complete, I could easily redeploy the entire stack or wipe and reseed the database with a single command. This streamlined both development and testing.
+
+Looking back, one improvement I would make is to prioritize creating the Docker and database seeding scripts earlier. Having these tools available from the start would have simplified testing during development.
+
 ## Analysis
-First, we created multiple text files where we have written down our understanding of the project and requirements. Then we created a database schema to have something to show the client and get feedback. After some questions about UI and certain features, we created a clickable wireframe.  
-Otherwise, we have not created any other schemas.
+First, we created multiple text files where we wrote down our understanding of the project and requirements. Then we created a database schema to have something to show the client and get feedback. After some questions about UI and certain features, we created a clickable wireframe.
+Other than these two, we did not make any other schemas.
 
 ## Final Deliverable
 - A git (lab or hub) repository that the client can access
   - https://gitlab.ti.howest.be/ti/2024-2025/s5/project-iv/projecten/project-01
   - https://github.com/BreadstickoSaurus/CollectionPlatform
-    - When using the nested projects please check if you are on the main branch, it can be you are on a certain commit branch(dont know how to fix)
+    - When using the nested projects please check if you are on the main branch, you could be on a certain commit branch (dont know how to fix)
 - A zip file with the source code, emailed to the client
 - The final presentation
 - A video showing the application
