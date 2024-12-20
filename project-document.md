@@ -127,4 +127,4 @@ Other than these two, we did not make any other schemas.
     - When using the nested projects please check if you are on the main branch, you could be on a certain commit branch (dont know how to fix)
 - A zip file with the source code, emailed to the client
 - The final presentation
-- A video showing the application
+- A video showing the application (https://youtu.be/3aohpzpuWOc)
