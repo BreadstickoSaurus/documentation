@@ -122,9 +122,10 @@ Other than these two, we did not make any other schemas.
 
 ## Final Deliverable
 - A git (lab or hub) repository that the client can access
-  - https://gitlab.ti.howest.be/ti/2024-2025/s5/project-iv/projecten/project-01
-  - https://github.com/BreadstickoSaurus/CollectionPlatform
+  - [https://gitlab.ti.howest.be/ti/2024-2025/s5/project-iv/projecten/project-01](https://gitlab.ti.howest.be/ti/2024-2025/s5/project-iv/projecten/project-01)
+  - [https://github.com/BreadstickoSaurus/CollectionPlatform](https://github.com/BreadstickoSaurus/CollectionPlatform)
     - When using the nested projects please check if you are on the main branch, you could be on a certain commit branch (dont know how to fix)
 - A zip file with the source code, emailed to the client
 - The final presentation
-- A video showing the application (https://youtu.be/3aohpzpuWOc)
+- A video showing the application ([https://youtu.be/3aohpzpuWOc](https://youtu.be/3aohpzpuWOc))
+- A guide on how to deploy ([docker repo](https://gitlab.ti.howest.be/ti/2024-2025/s5/project-iv/projecten/project-01/docker))
