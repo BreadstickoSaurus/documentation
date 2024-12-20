@@ -13,6 +13,7 @@ You can allow people to view your collection/wishlist for future use. This way, 
 In `todoList.md` you have a quick overview of what is available in the project.
 
 Example video: https://youtu.be/3aohpzpuWOc
+
 Project document: [project-document.md](./project-document.md)
 
 ## Backend
